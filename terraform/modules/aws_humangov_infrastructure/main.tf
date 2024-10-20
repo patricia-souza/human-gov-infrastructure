@@ -20,7 +20,7 @@ resource "aws_security_group" "state_ec2_sg" {
         from_port   = 0
         to_port     = 0
         protocol    = "-1"
-        security_groups = ["sg-0506164b0a621f9d1"]
+        security_groups = ["sg-09d37efbde215d360"]
       }
     
       egress {
